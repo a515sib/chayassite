@@ -2,6 +2,7 @@ import React from "react"
 import { Text, TextWrapper } from "../components/shared/TextWrapper"
 import { SkillWrapper, Items, SkillItem } from "../components/shared/Skill"
 import { useStaticQuery, graphql } from "gatsby"
+import { TitleComponent, StyledText } from "../components/shared/TextWrapper"
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -15,16 +16,12 @@ const About = () => {
   `)
   return (
     <>
+    <TitleComponent>About</TitleComponent>
+      <StyledText>About Me</StyledText>
       <TextWrapper>
         <Text>
-          Hello, My name is John Doe, and I'm a web design at My company, lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem
-          lorem lorem lorem lorem lorem lorem lorem lorem
+        I have been working in IT as a web programmer at for over three years. I enjoy learning new platforms such as Microsoft PowerApps and Salesforce.
+        I am currently deploying a Salesforce Project using Apex Triggers and Lightning Web Components
         </Text>
       </TextWrapper>
       <SkillWrapper>

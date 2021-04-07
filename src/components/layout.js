@@ -24,6 +24,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
+        <contact />
         <footer>
           <Footer/>
         </footer>

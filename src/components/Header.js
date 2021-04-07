@@ -18,7 +18,7 @@ const Header = () => {
       <Image
         width="400px"
         height="400px"
-        src={require("../images/programming.svg")}
+        src={require("../images/devfocus.svg")}
       />
       <div
         style={{
@@ -30,7 +30,7 @@ const Header = () => {
         }}
       >
         <SideText>Hi there, I'm {data.site.siteMetadata.author}</SideText>
-        <Skill>I'm a web designer</Skill>
+        <Skill>I'm a web developer</Skill>
       </div>
     </Heading>
   )

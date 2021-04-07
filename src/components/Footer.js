@@ -31,12 +31,7 @@ const Footer = () => {
           >
             Github
           </MediaLink>
-          <MediaLink
-            href={`https://twitter.com/${social.twitter}`}
-            target="_blank"
-          >
-            Twitter
-          </MediaLink>
+
         </div>
       </Content>
     </FootContainer>

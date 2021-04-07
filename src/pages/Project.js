@@ -28,24 +28,18 @@ const Project = () => {
       <StyledText>Some of my work</StyledText>
       <StyledContainer>
         <Card
-          photo={require("../images/programming.svg")}
-          title="The Benefits of Green Apples"
-          description="Green apples have a high fiber content which helps in increasing the
-      body's metabolism. While consuming an apple, make sure that you're not
-      tossing the peel in the trash. Consuming apple with its peel improves
-      the overall health. Due to its high fiber content, apple helps in
-      detoxification process. It keeps the liver and digestive system away
-      from harmful elements."
+          photo={require("../images/therapy.svg")}
+          title="Online Payment Page"
+          description="I created an online page, so that clients can pay for provided services at Ohel"
+          linktosite = "https://www.ohelfamily.org/pay"
+          siteName = 'View Project Page'
         />
         <Card
           photo={require("../images/thinking.png")}
-          title="The Benefits of Green Apples"
-          description="Green apples have a high fiber content which helps in increasing the
-      body's metabolism. While consuming an apple, make sure that you're not
-      tossing the peel in the trash. Consuming apple with its peel improves
-      the overall health. Due to its high fiber content, apple helps in
-      detoxification process. It keeps the liver and digestive system away
-      from harmful elements."
+          title="Online Workbook"
+          description="Ohel presented an online workbook for schools during Covid as an activity."
+          linktosite = "https://www.ohelfamily.org/workbook"
+          siteName = 'View Project Page'
         />
       </StyledContainer>
     </StyledRoot>

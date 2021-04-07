@@ -23,6 +23,6 @@ export const SideText = styled.h1`
 export const Skill = styled.h3`
   font-size: 1.3rem;
   color: #2d2d2d;
-  font-family: "Open Sans", sans-sherif;
+  font-family: Helvetica, Arial, sans-serif;
   opacity: .8;
 `

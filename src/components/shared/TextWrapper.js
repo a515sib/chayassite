@@ -4,7 +4,7 @@ import { breakpoints } from "./Media"
 export const Text = styled.div`
   font-size: 1rem;
   color: #2d2d2d;
-  font-family: "Open Sans", sans-sherif;
+  font-family: Helvetica;
   font-weight: normal;
   line-height: 1.3rem;
   padding: 0 6rem;
@@ -26,7 +26,7 @@ export const TextWrapper = styled.div`
 `
 export const TitleComponent = styled.div`
   font-size: 1.78rem;
-  font-family: "Raleway", sans-sherif;
+  font-family: Helvetica, sans-sherif;
   font-weight: 400;
   margin-left: 5rem;
 `

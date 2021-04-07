@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Portfolio Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default portfolio starter.`,
-    author: `John Doe`,
-    stacks: ['React', 'GraphQL', 'Gatsby', 'Javascript', 'Redux', 'Styled-components', 'Node', 'MongoDB'],
+    title: `Chaya's Gatsby Portfolio`,
+    description: `This portfolio site was created with Gatsby.`,
+    author: `Chaya Silberman`,
+    stacks: ['HTML', 'CSS', 'JavaScript', 'PHP', 'Salesforce'],
     social: {
       twitter: `judionit`,
-      github: `Judionit`
+      github: `a515sib`
     },
   },
   plugins: [

@@ -28,5 +28,5 @@ export const Items = styled.ul`
 `
 export const SkillItem = styled.li`
     font-size: 1rem;
-    font-family: "Open Sans", sans-sherif;
+    font-family: Helvetica, Arial, sans-serif;
 `
